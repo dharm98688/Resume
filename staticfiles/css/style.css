@@ -1,0 +1,90 @@
+body{
+    background-color: rgb(20,0,30);
+}
+
+.navbar-nav .nav-link:hover{
+    font-weight: bold;
+    color: #FFA500;
+}
+.navbar-nav .nav-link{
+    font-size: 20px;
+}
+.navbar-brand{
+    font-size: 30px;
+}
+.navbar-dark{
+    background-color: rgb(18,1,46);
+}
+
+/*Image*/
+
+.circular-image-container{
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 50%;
+    border: 2px solid #FFA500;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*Image size set*/
+
+.circular-image{
+    width: 120%;
+    height: auto;
+    display: block;
+}
+
+.name{
+    color: #fff;
+}
+
+.title{
+    color: #4fffb0;
+}
+
+
+/*Social links*/
+
+.social_links{
+
+}
+
+/*About Page Image*/
+.about_page{
+    width: 200px;
+    height: auto;
+    display: block;
+    border-radius: 5px;
+}
+
+.jumbotron{
+    background-color: #002444;
+    padding: 20px;
+    border-radius: 10px;
+}
+.display-4{
+    color: #eef3f8;
+    font-size: 34px;
+    font-weight: bold;
+}
+.lead{
+    font-size: 18px;
+    color: #28a745;
+}
+.exp{
+    color: #eef3f8;
+    font-size: 34px;
+    text-align: center;
+}
+.form-container{
+    border: 5px solid orange;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #8041d8;
+    color: white;
+    font-weight: bold;
+}
+

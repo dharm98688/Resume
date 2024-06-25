@@ -1,0 +1,46 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+    <div class="row my-5">
+        <div class="col-4 d-flex justify-content-center align-items-center">
+            <img src="{% static 'images/photo.jpeg' %}" alt="image_uploading" class="about_page">
+        </div>
+        <div class="col-7 text-left text-light">
+            <h4>
+                Hello !
+            </h4>
+            <p class="fs-5">
+                As an experienced Python Django Developer, I specialize in web application development with a solid
+                background in creating scalable and efficient solutions. My expertise includes utilizing the Django
+                framework, MVC architecture, and front-end technologies such as HTML, CSS, JavaScript, and Bootstrap. I
+                excel in backend development with Python, database management with MySQL and SQLite, and data analysis
+                using tools like Pandas and Matplotlib.
+            </p>
+            <p class="fs-5">
+                In addition to my technical skills, I am dedicated to sharing my knowledge with others. I believe in the
+                power of collaborative learning and strive to mentor and support my peers in their professional growth.
+                I am eager to contribute my expertise to innovative web development projects and foster a learning
+                environment that encourages knowledge sharing and continuous improvement.
+            </p>
+        </div>
+    </div>
+    <div class="row my-2">
+
+        <h1 class="text-center" style="color: #ffffff">My Tech Stack</h1>
+        <div class="d-flex justify-content-around align-items-center">
+            <img src="{% static 'images/python.png' %}" alt="html" width="70" height="70" style="border-radius: 20px" class="img-fluid">
+            <img src="{% static 'images/Django.png' %}" alt="html" width="70" height="70" style="border-radius: 20px" class="img-fluid">
+            <img src="{% static 'images/sql.png' %}" alt="html" width="70" height="70" style="border-radius: 20px" class="img-fluid">
+            <img src="{% static 'images/Numpy.png' %}" alt="html" width="70" height="70" style="border-radius: 20px" class="img-fluid">
+            <img src="{% static 'images/Matplotlib.png' %}" alt="html" width="70" height="70" style="border-radius: 20px" class="img-fluid">
+            <img src="{% static 'images/Html1.png' %}" alt="html" width="70" height="70" style="border-radius: 20px" class="img-fluid">
+            <img src="{% static 'images/Bootstrap.png' %}" alt="html" width="70" height="70" style="border-radius: 20px" class="img-fluid">
+            <img src="{% static 'images/Css.png' %}" alt="html" width="70" height="70" style="border-radius: 20px" class="img-fluid">
+
+            <img src="{% static 'images/javascript.png' %}" alt="html" width="70" height="70" style="border-radius: 20px" class="img-fluid">
+            <img src="{% static 'images/Excel.png' %}" alt="html" width="70" height="70" style="border-radius: 20px" class="img-fluid">
+            <img src="{% static 'images/word.png' %}" alt="html" width="70" height="70" style="border-radius: 20px" class="img-fluid">
+            <img src="{% static 'images/Github.png' %}" alt="html" width="70" height="70" style="border-radius: 20px" class="img-fluid">
+        </div>
+    </div>
+{% endblock %}

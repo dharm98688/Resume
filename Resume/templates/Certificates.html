@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+    <h1 class="exp my-5">Certificates</h1>
+    {% for eachitem in certificates %}
+            <div class="jumbotron jumbotron-fluid mt-2">
+            <h1 class="display-4">{{ eachitem.Institution }}</h1>
+            <p class="lead">{{ eachitem.Course }}</p>
+            </div>
+        {% endfor %}
+{% endblock %}
